@@ -1,5 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 export const Inicio = () => {
   return (
@@ -56,13 +59,20 @@ export const Inicio = () => {
             </svg>
         </div>
       </div>
-      
       <section className='contact'>
         <div className='contact-box'>
           <h3>Ponete en contacto ahora mismo</h3>
           <button><NavLink to='/contacto'>¡Charlemos!</NavLink></button>
         </div>
       </section>
+      <hr></hr>
+      <section className='beneficios'>
+       <h3 className='beneficios-texto'>Necesitas más info? ¡Esto te puede terminar de convencer!</h3>
+        <p>acá irían las 3 'tarjetas' una al lado de la otra: ej, calidad asegurada, satisfacción asegurada,
+          excelente seleccion '(auto hero)'
+        </p>
+      </section>
+      <hr></hr>
     </div>
   )
 }
