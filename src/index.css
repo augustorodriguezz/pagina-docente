@@ -1,0 +1,237 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header { 
+ height: 100vh;
+ width: 100%;
+ align-items: center;
+ justify-content: center;
+ background-image: url('fondo-header33.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ color: #fff;
+ transition: all 0.3s ease;
+}
+.header .nav {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  background-color: #fff;
+  height: 80px;
+  transition: all 0.3s ease;
+}
+.header .nav2 {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+.header .nav ul {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  justify-content: flex-end;
+  list-style: none;
+  margin-top: 20px;
+}
+.header .nav2 ul {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  justify-content: flex-end;
+  list-style: none;
+  margin-top: 20px;
+}
+.header li {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 15px;
+}
+.header .nav2 li {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 15px;
+}
+.header .nav li a {
+  color: #4f4cda;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.header .nav2 li a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.header .nav li a:hover{
+ background: #4f4cda;
+ color: #fff;
+ border-radius: 15px ;
+ padding: 5px 10px;
+}
+.header .nav2 li a:hover{
+  background: #fff;
+  border-radius: 15px ;
+  padding: 5px 10px;
+  color: #4f4cda;
+ }
+.header .nav h2 {
+  text-transform: uppercase;
+  margin-left: 25px;
+  margin-top: 30px;
+  color: #4b4b4b;
+}
+.header .nav h2 b {
+ color: #4f4cda;
+}
+.header .nav2 h2 {
+  text-transform: uppercase;
+  margin-left: 25px;
+  margin-top: 30px;
+  color: #4b4b4b;
+}
+.header .nav2 h2 b {
+ color: #4f4cda;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-container {
+  margin-left: 10%;
+  margin-top: 100px;
+}
+.text-container h2 {
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+.text-container h1 {
+  margin-bottom: 50px;
+  font-size: 60px;
+}
+.illustration .imagen-central {
+  width: 85%;
+  margin-top: 100px;
+
+}
+.content {
+  height: auto;
+}
+.footer {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 40px;
+  border-top: 1px solid #aaaaaa;
+  background-color: #5d98be;
+  min-height: 30px;
+  color: #fff;
+}
+.inicio{
+  display: block;
+}
+.caja{
+  background-color: #000000;
+  justify-content: center;
+  align-items: center;
+}
+.custom-shape-divider-bottom-1709731418 {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  text-align: center;
+}
+.caja .custom-shape-divider-bottom-1709731418 .offer-text {
+  color: #fff;
+}
+.signatures {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 30px;
+  text-align: center;
+  height: 450px;
+}
+.signatures h2 {
+  font-size: 30px;
+  width: 100%;
+}
+.signature {
+  width: 240px;
+  height: 200px;
+  margin: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 6px #ddd;
+  border-radius: 8px;
+  padding-top: 60px;
+  padding-left: 25px;
+}
+.work-type{
+  height: 600px;
+  background-color: #14127e;
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif;
+}
+.section-title{
+  margin-top: 25px;
+}
+.custom-shape-divider-bottom-1709738781 {
+ margin: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.bottom-work{
+  background-color: #14127e;
+  display: block;
+  height: 130px;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 320px;
+}
+.contact .contact-box {
+  width: 450px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 6px #ddd;
+  border-radius: 25px;
+  padding-top: 30px;
+}
+.contact-box button {
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  background-color: #5d98be;
+  outline: none;
+  border: none;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.contact-box button a{
+  text-decoration: none;
+  color: #000;
+}
+.contact-box h3 {
+  font-size: 25px;
+  margin-left: 30px;
+}
