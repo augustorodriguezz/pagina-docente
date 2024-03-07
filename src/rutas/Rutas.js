@@ -1,10 +1,11 @@
 import React from 'react';
 import {BrowserRouter , Routes , Route } from 'react-router-dom';
 import { Inicio } from '../components/pages/Inicio';
-import { Paquetes } from '../components/pages/Paquetes';
+import { Catalogo } from '../components/pages/Catalogo';
 import { Contacto } from '../components/pages/Contacto';
 import { HeaderNav } from '../components/layout/HeaderNav';
 import { Footer } from '../components/layout/Footer';
+import { Vender } from '../components/pages/Vender';
 
 
 export const Rutas = () => {
@@ -19,7 +20,8 @@ export const Rutas = () => {
           <Routes>
             <Route path='/' element={<Inicio/>}/>
             <Route path='/inicio' element={<Inicio/>}/>
-            <Route path='/paquetes' element={<Paquetes/>}/>
+            <Route path='/catalogo' element={<Catalogo/>}/>
+            <Route path='/vender' element={<Vender/>}/>
             <Route path='/contacto' element={<Contacto/>}/>
           </Routes>
         </section>
