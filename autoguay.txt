@@ -1,0 +1,16 @@
+- preguntas frecuentes (en el último slider) con un solo slide-to-show
+- considerar en el apartado de necesitas mas info: poner ventajas tambien de delegar el servicio a autoguay, ponerle que son unos capos.
+- asi es como trabajamos:
+venta: (azul)
+*nos contactas por mensaje para que ofertemos tu auto
+*tomamos unas fotografias
+*sentamos las bases y condiciones de venta
+*tu vehiculo ya esta en el mercado
+disclaimer: nosotros nos encargamos de las consultas y de pactar citas para mostrar el vehiculo
+compra: (celeste)
+*hablas con nosotros por el vehiculo que te interesó
+*te brindamos mas en detalle toda la información del mismo
+*definimos el proceso del pago
+*todo listo para disfrutar de tu nuevo vehiculo
+
+
