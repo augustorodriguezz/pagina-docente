@@ -13,7 +13,7 @@ export const Rutas = () => {
     <BrowserRouter>
 
       {/* Header de todo el viewport que incluya al nav */}
-        <HeaderNav />
+       
 
       {/* Contenido central con las rutas y el contenido */}
         <section className='content'>

@@ -1,7 +1,11 @@
 import React from 'react'
+import { Nav } from '../layout/Nav'
 
 export const Contacto = () => {
   return (
-    <div>Contacto</div>
+    <div>
+      <Nav/>
+      Contacto
+    </div>
   )
 }

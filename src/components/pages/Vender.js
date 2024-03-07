@@ -1,7 +1,11 @@
 import React from 'react'
+import { Nav } from '../layout/Nav'
 
 export const Vender = () => {
   return (
-    <div>Vender</div>
+    <div>
+        <Nav/>
+        Vender
+    </div>
   )
 }

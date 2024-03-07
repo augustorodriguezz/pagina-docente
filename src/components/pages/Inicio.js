@@ -1,13 +1,16 @@
 import React, {useState} from 'react';
 import { NavLink } from 'react-router-dom';
 import Carrusel from './Carrusel';
+import { HeaderNav } from '../layout/HeaderNav';
 
 
 
 export const Inicio = () => {
 
   return (
+
     <div className='inicio'>
+      <HeaderNav />
       <section className='presentacion'>
         <div className='caja'>
         <div className="custom-shape-divider-bottom-1709731418">
